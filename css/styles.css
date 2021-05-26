@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+ }
+
+.content{
+    min-width: 100vh;
+    min-height: 90vh;  
+}
+
+
+.header{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+}
+
+.caja1header{
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}.caja2header{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+nav{
+    display: flex;
+    background-color:gray;
+    height: 8vh;
+    width: 100%;
+    border: 1px solid black;
+} 
+
+a{
+    display: flex;
+    text-decoration: none;
+    padding: 1px 3px;
+    color: black;
+}
+
+.mainIndexGeneral{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.mainIndex1 {
+    min-height: 70vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainIndex2{
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mainSenators {
+    min-height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 10px;
+}
+
+.mainHouse {
+    min-height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 10px ;
+
+}
+
+footer{
+    height:10%;
+    width: 100%;
+    background-color: lightgray;
+    border: 1px solid black;
+    }
+
+
+table,td,th{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse:collapse;
+}
+
+
+.filtros{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap : 30px;
+}
+
+.mainIndex2 img{
+    height: 70%;
+}
+
+
+
+/*resto de las paginas*/
+
+.mainGeneral2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height:90vh;
+    padding:  5px 5px;
+    }
+
+.mainGeneral2Caja1{
+    display: flex;
+    width: 100%;
+    min-height: 50%;
+    gap:10px;
+    
+}
+
+.mainGeneral2Caja2{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    gap:10px;
+   
+}
+
